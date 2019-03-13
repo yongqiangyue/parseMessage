@@ -291,12 +291,12 @@ class ParseTimeMessage(object):
       if self._year == datetime.datetime.now().year and self._month > datetime.datetime.now().month:
         self._year -= 1
 
-    print('year:' + str(self._year))
-    print('month:' + str(self._month))
-    print('day:' + str(self._day))
-    print('hvaeyear:' + str(self._haveYear))
-    print('havemonth:' + str(self._haveMonth))
-    print('haveday:' + str(self._haveDay))
+    # print('year:' + str(self._year))
+    # print('month:' + str(self._month))
+    # print('day:' + str(self._day))
+    # print('hvaeyear:' + str(self._haveYear))
+    # print('havemonth:' + str(self._haveMonth))
+    # print('haveday:' + str(self._haveDay))
     if self._year == 0 and self._month == 0 and self._day == 0:
       return self.__parseSimpleAnswer(s)
 
